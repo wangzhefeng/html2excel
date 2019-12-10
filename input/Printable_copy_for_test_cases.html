@@ -1,0 +1,1444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)https://kiwi.thingswise.com:9443/plans/printable/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Printable copy for test cases</title>
+	
+	<meta http-equiv="Content-Language" content="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://kiwi.thingswise.com:9443/static/style/print.css" media="print">
+	
+	<style type="text/css">
+	div.thick-line { background-color: rgb(0, 0, 0);  width: 100%; height: 0.2ex; }
+	div.thin-line  { background-color: rgb(0, 0, 0);  width: 100%; height: 0.1ex; }
+	div.case-stage { width:25%; float:left; white-space:normal; }
+	div.case-stage pre{white-space:normal; padding-right:10px;}
+	div.plan_title { width: 100%; clear: left;}
+	</style>
+</head>
+<body>
+    
+    <!-- Title area -->
+    <div class="plan_title">
+        <div>
+            <h1>TP-1: <b>YOI_energe_test</b></h1>
+        </div>
+        <div class="thick-line"></div>
+        <div class="contents">
+            <h3>Contents</h3>
+            <div>
+                <ol>
+                    
+                    <li>TC-4: 企业能源成本概况-选择不同时间周期, CONFIRMED</li>
+                    
+                    <li>TC-5: 企业能源成本概况-检查本厂近30天日能源成本展示的数据, CONFIRMED</li>
+                    
+                    <li>TC-6: 企业能源成本概况-检查异常alert提示, CONFIRMED</li>
+                    
+                    <li>TC-7: 企业能源成本概况-选择不同钢厂, CONFIRMED</li>
+                    
+                    <li>TC-8: 企业能源成本概况-选择同一钢厂的不同车间, CONFIRMED</li>
+                    
+                    <li>TC-9: 企业能源成本概况-选择不同产线和班组, CONFIRMED</li>
+                    
+                    <li>TC-10: 工序能源成本计算-选择不同日期, CONFIRMED</li>
+                    
+                    <li>TC-11: 企业能源成本计算-选择不同工序, CONFIRMED</li>
+                    
+                    <li>TC-12: 氧气系统供需平衡策略支持_总图, CONFIRMED</li>
+                    
+                    <li>TC-13: 氧气系统供需平衡策略支持_策略指导, CONFIRMED</li>
+                    
+                    <li>TC-14: 氧气系统供需平衡策略支持_趋势及预测, CONFIRMED</li>
+                    
+                    <li>TC-15: 企业能源成本计算_下载功能, CONFIRMED</li>
+                    
+                    <li>TC-16: 工序能源成本计算-选择不同工序, CONFIRMED</li>
+                    
+                    <li>TC-17: 大小和像素不同的屏幕兼容性测试, CONFIRMED</li>
+                    
+                    <li>TC-18: 主页-大屏展示, CONFIRMED</li>
+                    
+                    <li>TC-19: 氧气系统供需平衡策略支持_趋势线选择, CONFIRMED</li>
+                    
+                    <li>TC-20: 氧气系统供需平衡策略支持-公司层级, CONFIRMED</li>
+                    
+                    <li>TC-21: 氧气系统供需平衡策略支持-炼铁厂层级, CONFIRMED</li>
+                    
+                    <li>TC-22: 氧气系统供需平衡策略支持-炼钢厂层级, CONFIRMED</li>
+                    
+                    <li>TC-23: 大屏-公司累计能源成本, CONFIRMED</li>
+                    
+                    <li>TC-24: 大屏-数据更新, CONFIRMED</li>
+                    
+                    <li>TC-25: 氧气系统供需平衡策略支持-氧气系统潮流总图, CONFIRMED</li>
+                    
+                    <li>TC-26: 氧气系统供需平衡策略支持-氧气系统关键运行信息, CONFIRMED</li>
+                    
+                    <li>TC-27: 氧气系统供需平衡策略支持-氧气智能策略指导, CONFIRMED</li>
+                    
+                    <li>TC-28: 大屏-能源系统概览图, CONFIRMED</li>
+                    
+                    <li>TC-29: 工序能源成本计算-选择不同介质, CONFIRMED</li>
+                    
+                    <li>TC-30: 企业能源成本计算-兼容性测试, CONFIRMED</li>
+                    
+                    <li>TC-31: 【目标设置】【车间】检查公司，炼钢厂，转炉车间数据的展示, CONFIRMED</li>
+                    
+                    <li>TC-32: 【目标设置】【车间】查看本年度实际的数据, CONFIRMED</li>
+                    
+                    <li>TC-33: 【目标设置】【车间】检查默认显示的填写数据, CONFIRMED</li>
+                    
+                    <li>TC-34: 【目标设置】【车间】检查保存和上报功能, CONFIRMED</li>
+                    
+                    <li>TC-35: 【目标设置】【车间】输入数据和修改数据, CONFIRMED</li>
+                    
+                    <li>TC-36: 【目标设置】【车间】检查“作为上一级能源成本”和“作为上一级产量”选项, CONFIRMED</li>
+                    
+                    <li>TC-37: 【目标设置】【车间】已上报状态, CONFIRMED</li>
+                    
+                    <li>TC-38: 【目标设置】【炼钢厂】车间工序弹窗预览功能, CONFIRMED</li>
+                    
+                    <li>TC-39: 【目标设置】【炼钢厂】退回和审核通过功能, CONFIRMED</li>
+                    
+                    <li>TC-40: 【目标设置】【炼钢厂】“未上报”状态不能预览报表, CONFIRMED</li>
+                    
+                    <li>TC-41: 【目标设置】【炼钢厂】被公司级退回, CONFIRMED</li>
+                    
+                    <li>TC-42: 【目标设置】【公司】“退回”和“审核通过”厂级提交的目标设置, CONFIRMED</li>
+                    
+                    <li>TC-43: 【目标设置】【公司】设置预警线, CONFIRMED</li>
+                    
+                    <li>TC-44: 【目标设置】【公司】取消审核操作, CONFIRMED</li>
+                    
+                    <li>TC-45: 【目标设置】【炼钢厂】公司审核通过以后，检车各车间标签变化, CONFIRMED</li>
+                    
+                    <li>TC-46: 【目标设置】【公司】按年份查询目标设置, CONFIRMED</li>
+                    
+                    <li>TC-47: 【目标设置】退回后重新编辑数据上传, CONFIRMED</li>
+                    
+                    <li>TC-48: 【目标设置】【动力部】检查发电车间和供风车间的单位, CONFIRMED</li>
+                    
+                    <li>TC-49: 【目标设置】【动力部】不同单位的“作为上一级产量”不能同时勾选, CONFIRMED</li>
+                    
+                    <li>TC-50: 【目标设置】【动力部】同一单位的“作为上一级产量”可以同时勾选, CONFIRMED</li>
+                    
+                    <li>TC-55: 【实绩】【公司】改变日期检查能源实绩轮盘, CONFIRMED</li>
+                    
+                </ol>
+            </div>
+        </div>
+        <div>
+            <h2 id="plan_document">Test Plan Document</h2>
+            <div class="thick-line"></div>
+            <p>Smoke Test for YOI.</p>
+        </div>
+    </div>
+    
+
+    <div>
+        <h2 id="plan_cases">Test Cases</h2>
+        <div class="thick-line"></div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-4: 企业能源成本概况-选择不同时间周期</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本概况。<br>
+3.选择2018年1月1日至2018年12月31日，点击查询按钮，查看日，月，季度，年能源成本的数据。<br>
+4.选择2019年1月1日至2019年1月20日，点击查询按钮，查看日，月，季度，年能源成本的数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.跳转成功至企业能源成本概况。<br>
+3.数据成功展示。<br>
+4.数据成功展示并和步骤3的数据有差异。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-5: 企业能源成本概况-检查本厂近30天日能源成本展示的数据</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本概况。<br>
+3.查看本厂近30日能源成本的图标，检查图标中的数值是否能匹配【正常】【预警】【异常】等三个状态。<br>
+4.检查时间周期是否为近30天。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.跳转成功至企业能源成本概况。<br>
+3.数值展示成功对应相应的状态的颜色。<br>
+4.时间周期为近30天。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-6: 企业能源成本概况-检查异常alert提示</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本概况。<br>
+3.模拟出企业月能源成本快速上涨的数据，查看【本厂能源成本趋势】图是展示有alert.<br>
+4.点击alert的闪烁点，检查alert的文本提示是否正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.跳转成功至企业能源成本概况。<br>
+3.成功展示alert的闪烁点。<br>
+4.正确展示alert的文本提示。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-7: 企业能源成本概况-选择不同钢厂</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本计算-企业能源成本概况。<br>
+3.选择不同的钢厂，查看展示结果。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.成功进入企业能源成本概况的页面。<br>
+3.成功展示不同钢厂的数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-8: 企业能源成本概况-选择同一钢厂的不同车间</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-9: 企业能源成本概况-选择不同产线和班组</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-10: 工序能源成本计算-选择不同日期</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本计算。<br>
+3.</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-11: 企业能源成本计算-选择不同工序</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本计算。<br>
+3.选择不同的工序，查看成本报表。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.成功进入企业能源成本计算的页面。<br>
+3.报表展示正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-12: 氧气系统供需平衡策略支持_总图</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.检查【氧气系统供需平衡状态】，【氧气系统潮流总图】，【氧气系统关键运行信息】里的字段是否和蓝湖一致。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.成功进入氧气系统供需平衡策略支持的页面。<br>
+3.数据字段的显示应和蓝湖一致。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-13: 氧气系统供需平衡策略支持_策略指导</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.在【氧气智能策略指导】下，进行策略的下发。<br>
+4.在【氧气智能策略指导】下，进行策略的执行。<br>
+5.在【氧气智能策略指导】下，进行策略的拒绝。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.成功进入氧气系统供需平衡策略支持的页面。<br>
+3.策略下发成功。<br>
+4.策略执行成功。<br>
+5.策略拒绝成功。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-14: 氧气系统供需平衡策略支持_趋势及预测</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.查看【氧气系统供需平衡趋势及预测】，【氧气管网压力趋势及预测】，【炼铁厂氧气趋势及预测】，【炼铁厂氧气趋势及预测】，【氧气月用量及吨钢综合氧气消耗】，【炼铁厂氧气趋势及预测】，【高炉日氧量及单耗】，【转炉日氧量及单耗】的图片是否展示完整。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.成功进入氧气系统供需平衡策略支持的页面。<br>
+3.数据字段的显示应和蓝湖一致。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-15: 企业能源成本计算_下载功能</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本计算-工序能源成本计算。<br>
+3.点击下载功能。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.跳转成功至工序能源成本计算页面。<br>
+3.下载报表成功。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-16: 工序能源成本计算-选择不同工序</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>本地部署应用<br>
+https://github.com/yoitech/steel-energy-management-app</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-工序能源成本计算。<br>
+3.分别选择【全部工序】【烧结工序】【高炉工序】【石灰工序】，查看页面展示结果。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功登录。<br>
+2.跳转成功至工序能源成本概况。<br>
+3.针对不同工序展示的结果均正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-17: 大小和像素不同的屏幕兼容性测试</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.不同屏幕大小。<br>
+2.不同像素的屏幕。<br>
+3.多屏展示。</p>
+<p>需要测试相关展示效果并有效去适配。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-18: 主页-大屏展示</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.进入主页。<br>
+2.对照蓝湖，检查大屏展示的字段和图标。<br>
+3.在IE,chrome,FF上进行兼容性测试，查看展示效果。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>1.成功进入主页。<br>
+2.字段和图标展示正确。<br>
+3.可以兼容IE，chrome，FF浏览器。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-19: 氧气系统供需平衡策略支持_趋势线选择</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/energy-balance</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.检查8张趋势线的图中，是否可以选择可以单独展示某一个介质的趋势线并且可以同时展示。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-20: 氧气系统供需平衡策略支持-公司层级</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.选择公司层级的维度，查看展示的总图。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.能看到公司层级的总图。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-21: 氧气系统供需平衡策略支持-炼铁厂层级</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.选择炼铁厂层级的维度，查看展示的总图。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.能看到炼铁厂层级的总图。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-22: 氧气系统供需平衡策略支持-炼钢厂层级</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.选择炼钢厂层级的维度，查看展示的总图。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.能看到炼钢厂层级的总图。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-23: 大屏-公司累计能源成本</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-大屏展示页面。<br>
+3.查看公司累计能源成本，查看数据是否为年度累计到昨天的数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.数据应该是年度累计到昨天的数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-24: 大屏-数据更新</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-大屏展示页面。<br>
+3.查看数据按照1分钟的频率进行更新，页面上是否有相应的更新。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.页面上应该按照颗粒度为1分钟的频率进行更新。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-25: 氧气系统供需平衡策略支持-氧气系统潮流总图</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.查看氧气系统潮流总图，查看主要的潮流数据（即时小时流量,压力，使用单耗）是否能实时展示。<br>
+4.在数据有异常的时候，应该有异常提示功能。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.能实时展示。<br>
+4.当数据有异常的时候，应该有异常提示的标记。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-26: 氧气系统供需平衡策略支持-氧气系统关键运行信息</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.查看氧气系统关键运行信息。<br>
+4.如果有异常数据，查看异常数据展示的颜色。<br>
+5.点击数据，查看是否可以查看该指标项趋势状况。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>4.异常数据展示的颜色为红色，正常数据展示的颜色为绿色。<br>
+5.可以查看该指标项的趋势状况。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-27: 氧气系统供需平衡策略支持-氧气智能策略指导</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-氧气系统供需平衡策略支持。<br>
+3.查看氧气智能策略指导，查看是否支持策略修改，下发，执行状态跟踪等功能（需要切换不同层级去查看相应的权限）。<br>
+4.查看氧气系统运行信息。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.不同层级应该支持不同的操作。<br>
+4.应该能成功展示对氧气运行中需要提示的重要信息，并且能输入相关信息。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-28: 大屏-能源系统概览图</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-大屏展示页面。<br>
+3.查看能源系统概览图，检查工序的排列是否正确，检查数据字段和展示是否正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.展示正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-29: 工序能源成本计算-选择不同介质</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入<br>
+https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-工序能源成本计算。<br>
+3.分别选择【钢水】【石灰】等不同介质，查看页面展示结果。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.数据展示正常。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-30: 企业能源成本计算-兼容性测试</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>进入https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.登录进入智能能效管理系统。<br>
+2.进入首页-能源价值-能源成本计算-企业能源成本计算。<br>
+3.进行不同浏览器的兼容性测试（ff,chrome,ie）.</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.可以兼容ff,chrome,ie。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-31: 【目标设置】【车间】检查公司，炼钢厂，转炉车间数据的展示</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.进入车间级别的目标设置页面,检查顶部“公司”“炼钢厂”“车间”的能源成本和计划产量的数据。<br>
+4.检查车间的上报状态。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>4.数据展示正确。<br>
+5.车间的上报状态，能源成本以及计划产量的勾选转改正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-32: 【目标设置】【车间】查看本年度实际的数据</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.点击“查看本年度实际目标”按钮。<br>
+4.检查弹框页面展示的数据和字段是否正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.弹框显示。<br>
+4.展示的字段和数据正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-33: 【目标设置】【车间】检查默认显示的填写数据</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.检查明年计划和各月计划的填写文本框内有显示默认的数据。<br>
+    4.检查是否可以修改默认的数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.默认的数据来自于本年度实际。<br>
+4.可以进行修改。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-34: 【目标设置】【车间】检查保存和上报功能</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.针对单一工序，填写数据，点击保存按钮，重新刷新页面，查看数据能否正常显示。<br>
+4.针对所有工序，填写完整数据，点击上传按钮。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.数据被保存成功。<br>
+4.上传成功。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-35: 【目标设置】【车间】输入数据和修改数据</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.填写“明年计划”的所有介质的[吨钢消耗][单价]数据，填写1月到12月计划的[吨钢消耗][单价]数据，点击保存。<br>
+4.修改“明年计划”的所有介质的[吨钢消耗][单价]数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.保存数据成功。<br>
+4.提示框弹出，选择确定以后，1月到12月计划的[吨钢消耗][单价]数据会随之修改。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-36: 【目标设置】【车间】检查“作为上一级能源成本”和“作为上一级产量”选项</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.填写所有工序的“明年计划”的所有介质的[吨钢消耗][单价]数据，填写1月到12月计划的[吨钢消耗][单价]数据。<br>
+4.不勾选“作为上一级能源成本”和“作为上一级产量”选项，点击上报按钮。<br>
+5.查看顶部车间“能源成本”和“计划产量”的数据。<br>
+6.从厂级退回车间的目标成本设置，勾选“作为上一级能源成本”和“作为上一级产量”选项，点击上报按钮。<br>
+7.查看顶部车间“能源成本”和“计划产量”的数据。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>4.上报成功。<br>
+5.数据展示正确。<br>
+6.上报成功。<br>
+7.数据展示正确。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-37: 【目标设置】【车间】已上报状态</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.填写“明年计划”的所有介质的[吨钢消耗][单价]数据，填写1月到12月计划的[吨钢消耗][单价]数据，点击保存并且上报。<br>
+4.检查顶部车间模块的上报状态。<br>
+5.查看各工序页面表格里的数据以及“年计划产量”和“预警线”文本框是否具可以编辑。<br>
+6.检查“作为上一级能源成本”和“作为上一级产量”的勾选框是否能勾选。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.上报成功。<br>
+4.状态为已上报状态。<br>
+5.已上报状态下是不能编辑的。<br>
+6.已上报状态下不能勾选。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-38: 【目标设置】【炼钢厂】车间工序弹窗预览功能</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择工厂级别，选择“已退回”状态的车间，点击某一工序。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.页面跳转到相应车间的目标设置页面。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-39: 【目标设置】【炼钢厂】退回和审核通过功能</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择一个状态为“待审核”的车间，点击“审核通过”按钮。<br>
+4.选择一个状态为“待审核”的车间，点击“退回”按钮。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.该车间的状态更新为“审核通过”状态。<br>
+4.该车间的状态更新为“已退回”状态。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-40: 【目标设置】【炼钢厂】“未上报”状态不能预览报表</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择一个状态为“未上报”的车间，将鼠标放在该车间的某一工序上并进行点击。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.没有弹窗预览的功能。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-41: 【目标设置】【炼钢厂】被公司级退回</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择公司层级，将某一厂级提交的目标进行退回。<br>
+4.进入厂级页面，查看厂级页面的退回提示。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.退回成功。<br>
+4.当前页面提示“已被上级退回，请重新审核车间目标数据”。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-42: 【目标设置】【公司】“退回”和“审核通过”厂级提交的目标设置</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择公司级别，选择一个“待审核”的厂级提交的目标设置,点击“审核通过”按钮。<br>
+4.选择公司级别，选择一个“待审核”的厂级提交的目标设置,点击“退回”按钮。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.该目标设置变为审核通过状态。<br>
+4.该目标设置变为已退回状态。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-43: 【目标设置】【公司】设置预警线</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.在预警线输入框内输入预警线的值，点击确定按钮。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.成功设置预警线的值，且无法再重新输入，“确定”按钮消失。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-44: 【目标设置】【公司】取消审核操作</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择一个“已审核通过”状态的厂级提交的目标设置，点击“取消审核”按钮。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.该厂的的状态变为待审核状态。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-45: 【目标设置】【炼钢厂】公司审核通过以后，检车各车间标签变化</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择炼钢厂层级，将各车间的目标设置进行审核通过，查看各车间的状态标签。<br>
+4.选择公司层级，将厂级提交的目标设置审核通过。<br>
+5.选择炼钢厂层级，查看各车间的状态标签。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.车间的状态标签为"厂审核通过。<br>
+4.成功审核通过。<br>
+5.车间的状态标签为“公司审核通过”。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-46: 【目标设置】【公司】按年份查询目标设置</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.在页面顶端选择公司级别，在年份的输入框内选择去年，点击查询按钮。<br>
+4.在页面顶端选择公司级别，在年份的输入框内选择今年，点击查询按钮。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.成功查询到去年目标设置的数据，并且无法对去年目标设置的数据进行修改。<br>
+4.成功查询到今年目标设置的数据，并且可以对几年目标设置的数据进行修改。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-47: 【目标设置】退回后重新编辑数据上传</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择工厂层级，针对某一待审核状态车间，点击退回按钮。<br>
+4.选择第三步中被退回的车间层级，再次编辑上报数据并提交。<br>
+5.选择对应的工厂层级，针对第四步中重新提交的目标设置进行审核通过操作。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.操作成功。<br>
+4.提交成功。<br>
+5.操作成功。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-48: 【目标设置】【动力部】检查发电车间和供风车间的单位</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.检查发电车间和供风车间的“作为上一级产量”的单位。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.供风车间应为“万m³”，发电车间应为“kwh”。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-49: 【目标设置】【动力部】不同单位的“作为上一级产量”不能同时勾选</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择动力部级别，勾选两个不同车间的不同单位的"作为上一级产量"的勾选框。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.弹出提示框“车间产量单位不相同，仅能选择一类相同的产量作为上一级产量”。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-50: 【目标设置】【动力部】同一单位的“作为上一级产量”可以同时勾选</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			<p>https://youye.thingswise.com/steel/energy/app/#/values/cal/overview</p>
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1.点击左侧导航栏的“能源成本概况”。<br>
+2.点击右上角“目标设置”。<br>
+3.选择“动力部”级别，选择不同车间的，勾选同一单位的“作为上一级产量”勾选框。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3.可以成功勾选。</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+        <div style="clear: left">
+            
+		<h3>TC-55: 【实绩】【公司】改变日期检查能源实绩轮盘</h3>
+		<div class="thin-line"></div>
+		<div class="case-stage">
+			<h4>Set up</h4>
+			
+		</div>
+		<div class="case-stage">
+			<h4>Actions</h4>
+			<p>1、选择 能源实绩-能源实绩概况<br>
+2、选择查询日期 2019.1.1-2019.4.10（当日，非历史值）<br>
+3、查看能源实绩轮盘信息</p>
+		</div>
+		<div class="case-stage">
+			<h4>Expected Results</h4>
+			<p>3、公司日能源实绩显示2019.4.9的值<br>
+         公司月能源实绩显示2019.4.1-4.9的值<br>
+         公司季能源实绩显示2019.3.1-4.9的值<br>
+         公司年能源实绩显示2019.1.1-4.9的值</p>
+		</div>
+		<div class="case-stage">
+			<h4>Breakdown</h4>
+			
+		</div>
+            
+	</div>
+	
+    </div>
+
+</body></html>
