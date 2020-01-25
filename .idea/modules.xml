@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/html2excel.iml" filepath="$PROJECT_DIR$/.idea/html2excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pysci/.idea/pysci.iml" filepath="$PROJECT_DIR$/../pysci/.idea/pysci.iml" />
+      <module fileurl="file://$USER_HOME$/Work/steam-proj/Algorithm/script-DOING/.idea/script-DOING.iml" filepath="$USER_HOME$/Work/steam-proj/Algorithm/script-DOING/.idea/script-DOING.iml" />
+    </modules>
+  </component>
+</project>
